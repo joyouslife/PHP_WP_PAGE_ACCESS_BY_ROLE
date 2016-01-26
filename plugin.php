@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Page Access By Role
  * Version: 1.0.0
- * Author: JTEam
+ * Author: JTeam
  */
 
 try {
