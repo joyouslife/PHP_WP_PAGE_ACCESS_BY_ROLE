@@ -1,7 +1,7 @@
 <?php
 
-if (class_exists('JTeamController')) {
-	return false;
+if (!class_exists('JTeam')) {
+	require_once 'JTeam.php';
 }
-require_once 'config.php';
-require_once 'JTeamController.php';
+
+$jteam = new jteam\JTeam();
